@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+li {
+    transition: 0.3s ease-in;
+}
+li:hover {
+    cursor: pointer;
+    color: red;
+}
+/* navbar section */
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 40px;
+    padding-block: 10px;
+}
+.nav-items ul {
+    display: flex;
+    gap: 30px;
+}
+.nav-items ul li {
+    list-style-type: none;
+}
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+/* hero section */
+.hero-main {
+    background: url('Assets/hero.jpg');
+    height: 80vh;
+    background-size: contain;
+}
+.new-arrival {
+    background-color: rgb(240, 210, 155);
+    padding-inline: 20px;
+    padding-block: 20px;
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.new-arrival p {
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+.new-arrival h2 {
+    font-size: 1.9rem;
+    color: rgb(193, 127, 3);
+}
+.hero-btn {
+    margin-top: 10px;
+    width: 150px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(193, 127, 3);
+}
+
+/* range section */
+
+.range-main {
+    text-align: center;
+    margin-top: 20px;
+}
+.range-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.range-card img {
+    width: 350px;
+}
+/* product section */
+.prices {
+    display: flex;
+    justify-content: space-between;
+}
+.product-heading {
+    text-align: center;
+    margin-block: 20px;
+}
+.product-cards {
+    padding-inline: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.product-card {
+    width: 20%;
+    margin-inline: 20px;
+    background-color: rgb(230, 227, 227);
+}
+.product-card img {
+    width: 100%;
+}
+.content {
+    padding-inline: 10px;
+}
+.stroke {
+    text-decoration: line-through;
+}
+.show-btn {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    outline: none;
+    margin-left: 45%;
+    margin-block: 30px;
+}
+/* inspiration-section */
+.inspiration-main {
+    display: flex;
+    background-color: rgb(240, 227, 203);
+}
+.inspiration-content {
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.inspiration-content h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.inspiration-content p {
+    font-weight: 600;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+.inspiration-image {
+    padding-block: 20px;
+    padding-right: 10px;
+    display: flex;
+    gap: 15px;
+}
+.inspiration-image img {
+    width: 300px;
+}
+.explore-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(179, 122, 18);
+    font-weight: 600;
+    margin-top: 15px;
+}
+/* setup section */
+.setup-main {
+    display: flex;
+    flex-direction: column;
+}
+.setup-content {
+    margin-block: 15px;
+    text-align: center;
+}
+
+/* footer section */
+footer {
+    margin-top: 40px;
+    display: flex;  
+    justify-content: space-around;
+}
+.footer-item {
+    width: 20%;
+}
+.footer-item ul li {
+    list-style-type: none;
+    margin-top: 35px;
+}
+.footer-logo p{
+    opacity: 0.7;
+    font-size: 0.85rem;
+}
+.footer-logo div {
+    padding-block: 30px;
+}
+input {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-top: 25px;
+}
+.footer-btn {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: white;
+    text-transform: uppercase;
+}
+.footer-above {
+    margin-block: 15px;
+}
+
+.mini-footer {
+    margin-inline: 20px;
+    margin-bottom: 8px;
+}
